@@ -1,0 +1,14 @@
+{
+  "Name": "Study dataset for study-ds006192",
+  "BIDSVersion": "1.10.1",
+  "DatasetType": "study",
+  "License": "CC0",
+  "Authors": [
+    "OpenNeuroStudies Contributors"
+  ],
+  "ReferencesAndLinks": [
+    "https://openneuro.org",
+    "https://github.com/OpenNeuroStudies/study-ds006192",
+    "https://bids.neuroimaging.io/extensions/beps/bep_035.html"
+  ]
+}
