@@ -1,11 +1,37 @@
 {
-  "Name": "Study dataset for study-ds006192",
+  "Name": "Study dataset for ds006192",
   "BIDSVersion": "1.10.1",
   "DatasetType": "study",
-  "License": "CC0",
-  "Authors": [
-    "OpenNeuroStudies Contributors"
+  "SourceDatasets": [
+    {
+      "URL": "bids::sourcedata/ds006191/",
+      "DOI": "doi:10.18112/openneuro.ds006191"
+    },
+    {
+      "URL": "bids::sourcedata/ds006189/",
+      "DOI": "doi:10.18112/openneuro.ds006189"
+    },
+    {
+      "URL": "bids::sourcedata/ds006185/",
+      "DOI": "doi:10.18112/openneuro.ds006185"
+    },
+    {
+      "URL": "bids::sourcedata/ds006131/",
+      "DOI": "doi:10.18112/openneuro.ds006131"
+    }
   ],
+  "GeneratedBy": [
+    {
+      "Name": "openneuro-studies",
+      "Version": "0.20251009.0",
+      "Description": "OpenNeuroStudies infrastructure for organizing OpenNeuro datasets",
+      "CodeURL": "https://github.com/OpenNeuroStudies/OpenNeuroStudies"
+    }
+  ],
+  "Authors": [
+    "Yaroslav Halchenko"
+  ],
+  "License": "CC0",
   "ReferencesAndLinks": [
     "https://openneuro.org",
     "https://github.com/OpenNeuroStudies/study-ds006192",
