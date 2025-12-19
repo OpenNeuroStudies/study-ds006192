@@ -1,0 +1,9 @@
+BIDS Validation Summary
+============================================================
+
+Errors: 0
+Warnings: 0
+
+Dataset is BIDS valid!
+
+Exit code: 0

@@ -1,0 +1,29 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors"
+      }
+    ],
+    "codeMessages": {
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n"
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [],
+    "subjectMetadata": [],
+    "tasks": [],
+    "modalities": [],
+    "secondaryModalities": [],
+    "totalFiles": 2,
+    "size": 2457,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [],
+    "schemaVersion": "1.1.3"
+  }
+}
