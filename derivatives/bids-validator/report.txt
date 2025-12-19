@@ -1,9 +1,16 @@
-BIDS Validation Summary
-============================================================
+	[WARNING] TOO_FEW_AUTHORS The 'Authors' field of 'dataset_description.json' should contain an array of values -
+with one author per value.
+This was triggered based on the presence of only one author field.
+Please ignore if all contributors are already properly listed.
 
-Errors: 0
-Warnings: 0
+		/dataset_description.json
 
-Dataset is BIDS valid!
+	Please visit https://neurostars.org/search?q=TOO_FEW_AUTHORS for existing conversations about this issue.
 
-Exit code: 0
+
+          Summary:                         Available Tasks:        Available Modalities:
+          2 Files, 2.46 kB                                                              
+          0 - Subjects 1 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
+
