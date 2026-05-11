@@ -1,0 +1,36 @@
+{
+  "source_id": {
+    "Description": "Source dataset ID (e.g., ds000001)"
+  },
+  "derivative_id": {
+    "Description": "Derivative identifier (e.g., mriqc-25.0.0, fmriprep-24.1.1)"
+  },
+  "subjects_num": {
+    "Description": "Total number of unique subjects in this derivative dataset",
+    "Units": "count"
+  },
+  "sessions_num": {
+    "Description": "Total number of sessions across all subjects, or 'n/a' if single-session",
+    "Units": "count"
+  },
+  "output_num": {
+    "Description": "Total number of output files across all subjects in this derivative",
+    "Units": "count"
+  },
+  "output_size": {
+    "Description": "Total size of all output files in this derivative",
+    "Units": "bytes"
+  },
+  "nifti_num": {
+    "Description": "Total number of NIfTI files (.nii, .nii.gz) across all subjects",
+    "Units": "count"
+  },
+  "nifti_size": {
+    "Description": "Total size of NIfTI files across all subjects",
+    "Units": "bytes"
+  },
+  "html_num": {
+    "Description": "Total number of HTML report files across all subjects",
+    "Units": "count"
+  }
+}
